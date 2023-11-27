@@ -28,3 +28,14 @@ O projeto consiste no desenvolvimento de uma aplicação web dedicada a mostrar 
 ### Tecnologias Utilizadas
 
 - A aplicação foi desenvolvida utilizando tecnologias web modernas, garantindo uma experiência responsiva e acessível.
+
+### Testes e Aprimoramentos
+Realizamos testes para verificar a funcionalidade do site, identificando a necessidade de melhorias no designer da página como um todo. Salientamos que a página está sujeita a atualizações contínuas em relação à produtos.
+
+### Versionamento de Código
+Utilizamos o GitHub como ferramenta de versionamento de código. Optamos por cada membro da equipe desenvolver e enviar para um responsável, por fim o mesmo colocar todo desenvolvimento no github, permitindo um desenvolvimento de código de maneira organizada.
+
+### Considerações Finais
+O projeto em grupo demonstrou uma colaboração eficaz e a combinação de habilidades individuais para criar uma plataforma envolvente e informativa.
+A estrutura organizada do projeto, com seus arquivos HTML, CSS e JavaScript, reflete uma abordagem sólida no desenvolvimento web. As categorias cuidadosamente escolhidas, como Custo Benefício, Design Redondo e Super Premium, mostram uma compreensão aprofundada do mercado de Smartwatches e uma consideração cuidadosa para as necessidades do usuário.
+Em suma, este projeto não apenas atende aos requisitos acadêmicos, mas também reflete a dedicação do grupo em criar uma experiência valiosa para os entusiastas de tecnologia. 
