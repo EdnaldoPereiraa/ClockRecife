@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!--Box-icon-->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <!--Google-Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <title>Clock Recife</title>
+    </head>
+
+    <body>
+
+        <!--Cabeçalho-->
+
+        <header>
+            <a href="#" class="logo"><i class='bx bxs-watch-alt'></i>Clock Recife</a>
+
+            <ul class="Links">
+                <li><a href="#" class="active" onclick="showHomeImage()">Home</a></li>
+                <li><a href="#super-premium" class="active">Premium</a></li>
+                <li><a href="#linha-redondos" class="active">Redondos</a></li>
+                <li><a href="#custo-beneficio" class="active">Benefício</a></li>
+            </ul><!--Links-->
+
+            <div class="h-main">
+                <a href="https://wa.me/5581996628352?text=Olá! Tenho interesse nos smartwatches. Você pode me fornecer mais informações sobre os modelos disponíveis?" target="_blank" class="h-btn">Falar com Vendedor</a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+                <div class="bx bx-moon" id="darkmode"></div>
+            </div><!--h-main-->
+        </header> 
+        <!--Cabeçalho-->
+
+
+        <!--hero-section-->
+
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Smartwacht</h1>
+                <h4>ESTILO MODERNO</h4>
+                <p>Não é apenas um relógio, é uma extensão do seu estilo de vida. Nossos smartwatches oferecem a funcionalidade de um assistente pessoal e o visual de um acessório de moda de alto nível.
+                </p>
+                <div class="hero-in">
+                    <div class="box">
+                        <h3>Custo</h3>
+                        <h5>Benefício</h5>
+                        <img src="img/produto1.png" onclick="slider('img/produto1.png')">
+                    </div><!--box-->
+
+                    <div class="box">
+                        <h3>Super</h3>
+                        <h5>Premium</h5>
+                        <img src="img/produto.2.png" onclick="slider('img/produto.2.png')">
+                    </div><!--box-->
+
+                    <div class="box">
+                        <h3>Linha</h3>
+                        <h5>Redondo</h5>
+                        <img src="img/produto3.png" onclick="slider('img/produto3.png')">
+                    </div><!--box-->
+                </div><!--hero-in-->
+            </div><!--hero-text-->
+
+            <div class="hero-img">
+                <img id="watchImage" src="./img/varios-watch.png">
+
+            </div><!--hero-img-->
+
+            <div class="popup" id="popup">
+                <div class="popup-content">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <img id="popup-image" src="">
+                    <p id="popup-text"></p>
+                </div>
+            </div>
+            
+            <div class="hero-img">
+                <video src="./video/video apresentacao.mp4"
+                controls></video>
+            </div><!--hero-img-->
+
+            <div class="hero-img">
+                <div class="hero-text" id="super-premium">
+                    <h4>Super Premium</h4>
+                    <p>A linha Super Premium de smartwatches representa o ápice da tecnologia vestível, oferecendo uma experiência de usuário excepcional e recursos de última geração.
+                        A linha Super Premium é voltada para aqueles que valorizam o luxo, o desempenho e a inovação em seus dispositivos vestíveis e buscam uma experiência completa de smartwatch.
+                    </p>
+                    <div class="hero-in">
+                        <div class="box" onclick="showPopup('Qtela de 420*420 Píxels, tendo a melhor tela da Iwo Brasil, o mais próximo do Apple Watch. Além de qualidade de resolução, a sua tela se destaca em tamanho útil, sendo uma tela de 2,2 Polegadas. Uma verdadeira tela infinita.', 'img/produto.2.png')"> 
+                            <h3>Ultra</h3>
+                            <h5>9 Max</h5>
+                            <img src="img/produto.2.png">
+                        </div>
+                                
+                        <div class="box" onclick="showPopup('Tamanho: 48MM;TELA: 2.2 POLEGADAS AMOLED 420*486;MEMÓRIA: 256M;', 'img/produto2.2.png')"> 
+                            <h3>HW9</h3>
+                            <h5>Ultra Max</h5>
+                            <img src="img/produto2.2.png">
+                        </div><!--box-->
+                        
+                    </div><!--hero-in-->
+                </div><!--hero-text-->
+            </div><!--hero-img-->
+
+            <div class="hero-img">
+                <div class="hero-text" id="linha-redondos">
+                    <h4>Linha Redondos</h4>
+                    <p>A linha de smartwatches com design redondo oferece um toque de elegância e sofisticação ao mundo da tecnologia vestível. Com seus visores circulares, esses dispositivos se assemelham mais a 
+                         relógios tradicionais, tornando-os populares entre aqueles que desejam combinar estilo clássico com funcionalidades modernas.
+                    </p>
+                    <div class="hero-in">
+                        <div class="box" onclick="showPopup('Design Redondo, Tamanho: 46mm, Tela: 1,39 Polegadas, Memória: 192kb Ram e 128M Rom, 270mAh bateria ', 'img/produto.3.png')">
+                            <h3>XH4</h3>
+                            <h5>Max</h5>
+                            <img src="img/produto.3.png">
+                        </div><!--box-->
+            
+                        <div class="box" onclick="showPopup('MODELO REDONDO COM DESIGN DE RELÓGIO ANALÓGICO, TAMANHO : 46MM, TELA : 1.5 POLEGADAS, MEMÓRIA : RAM 192KB | ROM 128MB, CARREGADOR: INDUÇÃO, BATERIA 270mAh ', 'img/produto4.png')">
+                            <h3>GT3</h3>
+                            <h5>Max</h5>
+                            <img src="img/produto4.png">
+                        </div><!--box-->
+                    </div><!--hero-in-->
+                </div><!--hero-text-->  
+            </div><!--hero-img-->
+
+            <div class="hero-img">
+                <video src="./video/apresentacao redondo.mp4"
+                controls></video>
+            </div><!--hero-img-->
+
+            <div class="hero-img">
+                <video src="./video/video custo beneficio (2).mp4"
+                controls></video>
+            </div><!--hero-img-->
+
+            <div class="hero-img">
+                <div class="hero-text" id="custo-beneficio">
+                    <h4>Custo Benefício</h4>
+                    <p>Custo-benefício são dispositivos que oferecem uma variedade de recursos e funcionalidades úteis a preços acessíveis. Eles são projetados para atender às necessidades básicas dos usuários, proporcionando uma experiência inteligente sem comprometer significativamente a qualidade.</p>
+                    <div class="hero-in">
+                        <div class="box" onclick="showPopup('Tamanho de 47mm, Compatível com sistema Android e iOS, Troca Pulseiras (Compatível com pulseiras no tamanho 42/44/45/49), Tela infinita HD com alta resolução, ', 'img/produto5 (2).png')"> 
+                            <h3>W29</h3>
+                            <h5>Max</h5>
+                            <img src="img/produto5 (2).png">
+                        </div>
+                        
+                        <div class="box" onclick="showPopup(' Possui uma tela colorida HD de 1,85 polegadas, monitoramento do sono, carregamento magnético e detecção de frequência cardíaca. Além disso, possui chamada Bluetooth, controle de acesso NFC e é resistente a água. Sua tela sem bordas de 2.0 HD ', 'img/produto6.png')"> 
+                            <h3>WS93</h3>
+                            <h5>Max</h5>
+                            <img src="img/produto6.png">
+                        </div><!--box-->
+                    </div><!--hero-in-->
+                </div><!--hero-text--> 
+            </div><!--hero-img-->        
+
+            
+        </section><!--hero-->
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>
