@@ -39,6 +39,3 @@ Utilizamos o GitHub como ferramenta de versionamento de código. Optamos por cad
 O projeto em grupo demonstrou uma colaboração eficaz e a combinação de habilidades individuais para criar uma plataforma envolvente e informativa.
 A estrutura organizada do projeto, com seus arquivos HTML, CSS e JavaScript, reflete uma abordagem sólida no desenvolvimento web. As categorias cuidadosamente escolhidas, como Custo Benefício, Design Redondo e Super Premium, mostram uma compreensão aprofundada do mercado de Smartwatches e uma consideração cuidadosa para as necessidades do usuário.
 Em suma, este projeto não apenas atende aos requisitos acadêmicos, mas também reflete a dedicação do grupo em criar uma experiência valiosa para os entusiastas de tecnologia. 
-
-### Acesso ao projeto 
-https://ednaldopereiraa.github.io/ClockRecife/
