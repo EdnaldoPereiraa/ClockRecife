@@ -1,0 +1,12 @@
+test code
+
+Chamando a função slider com um caminho de imagem como argumento
+    slider('./img/nova-imagem.png');
+
+    slider('./img/outra-imagem.png');
+
+Testando com diferentes valores para verificar se a janela popup é exibida corretamente
+    showPopup('Isso é um teste', './img/teste-imagem.png');
+
+
+    showPopup('Outro teste', './img/outra-imagem.png');
