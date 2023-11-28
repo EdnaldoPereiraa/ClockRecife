@@ -10,19 +10,27 @@ O projeto consiste no desenvolvimento de uma aplicação web dedicada a mostrar 
 ### Funcionalidades Principais
 
 1. **Categorias Distintas**
-    -Custo Benefício: Destacando modelos que oferecem uma excelente relação custo-benefício. 
+   
+    -Custo Benefício: Destacando modelos que oferecem uma excelente relação custo-benefício.
+   
     -Redondos: Focando em Smartwatches com design de tela redonda.
+   
     -Super Premium: Exibindo os modelos mais sofisticados e premium disponíveis no mercado.
 
 2. **Detalhes Abrangentes**
+   
     -Páginas dedicadas a cada modelo, fornecendo informações detalhadas sobre especificações técnicas.
+   
     -Galeria de imagens de alta qualidade para uma visualização mais completa dos produtos.
 
 3. **Interatividade Aprimorada**
+   
     -Navegação suave entre as diferentes categorias e páginas de detalhes.
+   
     -Efeitos visuais incorporados para melhorar a experiência do usuário.
 
 4. **Design Responsivo**
+   
     -Adaptação do layout para garantir uma experiência consistente em diferentes dispositivos.
 
 ### Tecnologias Utilizadas
