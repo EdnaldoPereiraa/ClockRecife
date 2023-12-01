@@ -1,0 +1,23 @@
+{
+  "name": "clockrecife",
+  "version": "1.0.0",
+  "description": "O projeto consiste no desenvolvimento de uma aplicação web dedicada a mostrar um catálogo de smartwatches. Este trabalho foi desenvolvido em grupo como parte de nosso curso na universidade.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8080" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdnaldoPereiraa/ClockRecife.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdnaldoPereiraa/ClockRecife/issues"
+  },
+  "homepage": "https://github.com/EdnaldoPereiraa/ClockRecife#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
