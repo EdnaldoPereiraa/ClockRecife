@@ -32,9 +32,54 @@ function closePopup() {
 }
 
 
+function toggleDarkMode() {
+    const darkmode = document.querySelector('#darkmode');
+    const body = document.body;
+
+    if (darkmode.classList.contains('bx-moon')) {
+        darkmode.classList.replace('bx-moon', 'bx-sun');
+        body.classList.add('color');
+    } else {
+        darkmode.classList.replace('bx-sun', 'bx-moon');
+        body.classList.remove('color');
+    }
+}
+
+// Função para lidar com o clique no ícone de menu
+function handleMenuClick() {
+    const menu = document.querySelector('#menu-icon');
+    const links = document.querySelector('.Links');
+
+    menu.classList.toggle('bx-x');
+    links.classList.toggle('open');
+}
+
+// Função para lidar com o evento de rolagem da janela
+function handleWindowScroll() {
+    const menu = document.querySelector('#menu-icon');
+    const links = document.querySelector('.Links');
+
+    menu.classList.remove('bx-x');
+    links.classList.remove('open');
+}
+
+// Adicionar eventos aos elementos correspondentes
+function addEventListeners() {
+    const darkmode = document.querySelector('#darkmode');
+    const menu = document.querySelector('#menu-icon');
+
+    darkmode.addEventListener('click', toggleDarkMode);
+    menu.addEventListener('click', handleMenuClick);
+    window.addEventListener('scroll', handleWindowScroll);
+}
+
 module.exports = {
     slider,
     showHomeImage,
     showPopup,
-    closePopup
+    closePopup,
+    toggleDarkMode,
+    handleMenuClick,
+    handleWindowScroll,
+    addEventListeners
   };
